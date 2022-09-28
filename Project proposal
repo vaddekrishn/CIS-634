@@ -1,1 +1,27 @@
 
+CIS 634 Software Engineering
+
+Project Name: Student Internship Management System
+Abstract:
+The goal of the project is to create an easy-to-use android application software that may be used 
+to handle applications from students who submit their internship applications online using an 
+android application, with faculty members evaluating and administrators approving the 
+applications. The project's scope includes, but is not limited to, creating deliverables and 
+documentation based on requirements such as class diagrams, component diagrams, user 
+requirements, as well as system development.
+Introduction:
+The student Internship management system is an Android app that is an online internship 
+management android application in which a student can be able to apply for an internship by 
+submitting his application form online through the application to the concerned faculty on the 
+other end faculty could be able to go through the application form that is submitted by the 
+student and review the details of the employer during which the student can be able to find the 
+internship. The admin can examine both the overall number of students and the number of 
+students who applied for internships in the meanwhile.
+The development of the software application will result in the paperless, real-time streamlining 
+of the application process, which might help the company save time. Many students will find it 
+helpful to apply for an internship using this straightforward software since it will be the only 
+place, they can seek rather than going via several job portals and applications and monitoring 
+them, which will be quite challenging. Many students also are unaware of the application 
+procedure for internships, which causes them to lose out on possibilities. Our application will 
+serve as a central location for students from various universities to apply for internship 
+opportunities in any department of any organization

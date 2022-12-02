@@ -8,6 +8,6 @@ The goal of the project is to create an easy-to-use android application software
 	1.2 SRS Document.pdf 
 	1.3 SDS.pdf
 	1.4 test_doc_file.pdf
-Intenship Management System
-Application APK
+2 Intenship Management System
+3 Application APK
                         

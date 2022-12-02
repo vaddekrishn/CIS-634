@@ -1,4 +1,4 @@
-package com.example.internshipmanagementsyste;
+package com.digitalInnovation.internshipmanagementsystem;
 
 import org.junit.Test;
 

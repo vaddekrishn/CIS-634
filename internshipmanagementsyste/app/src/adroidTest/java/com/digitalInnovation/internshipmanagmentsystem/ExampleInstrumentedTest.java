@@ -1,4 +1,4 @@
-package com.example.internshipmanagementsyste;
+package com.digitalInnovation.internshipmanagementsystem;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.internshipmanagementsyste", appContext.getPackageName());
+        assertEquals("com.digitalInnovation.internshipmanagementsystem", appContext.getPackageName());
     }
 }

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/bnhome">
+
+    <fragment
+        android:id="@+id/bnhome"
+        android:name="com.digitalInnovation.internshipmanagementsystem.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/bnsearch"
+        android:name="com.digitalInnovation.internshipmanagementsystem.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/bnapplied"
+        android:name="com.digitalInnovation.internshipmanagementsystem.AppliedFragment"
+        android:label="Applied"
+        tools:layout="@layout/fragment_applied" />
+    <fragment
+        android:id="@+id/bnprofile"
+        android:name="com.digitalInnovation.internshipmanagementsystem.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+
+
+
+</navigation>

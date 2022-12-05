@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bnhome"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/bnsearch"
+        android:icon="@drawable/ic_search"
+        android:title="Search" />
+    <item
+        android:id="@+id/bnapplied"
+        android:icon="@drawable/ic_applied"
+        android:title="Applied" />
+
+    <item
+        android:id="@+id/bnprofile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+
+</menu>

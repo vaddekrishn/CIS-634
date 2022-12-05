@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">792239384391-8k8150is8ihvdj8e798ee2aalnetqurs.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">792239384391</string>
+    <string name="google_api_key" translatable="false">AIzaSyBBfreZiFecJefqa9XCxr2Ntch8MzCNgZw</string>
+    <string name="google_app_id" translatable="false">1:792239384391:android:cf463aea0a6334933f4e62</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBBfreZiFecJefqa9XCxr2Ntch8MzCNgZw</string>
+    <string name="google_storage_bucket" translatable="false">internship-management-sy-d1b3b.appspot.com</string>
+    <string name="project_id" translatable="false">internship-management-sy-d1b3b</string>
+</resources>

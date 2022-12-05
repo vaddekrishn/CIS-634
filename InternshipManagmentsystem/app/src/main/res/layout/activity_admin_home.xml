@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="?actionBarSize"
+    tools:context=".Admin.AdminHomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/white"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/aboutUs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_weight="1.8"
+                    android:padding="8dp"
+                    android:text="@string/home"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+                <ImageButton
+                    android:id="@+id/cartBtn"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="end"
+                    android:layout_weight="0.2"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/profile"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <EditText
+            android:id="@+id/searchBar"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/toolbar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_search_backgroud"
+            android:backgroundTint="#F8F8F8"
+            android:hint="@string/search"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:maxHeight="48dp"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#000000"
+            android:textSize="18sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/searchbtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignEnd="@id/searchBar"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/rectanglesearch"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_search"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/searchBar"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_weight="1.5"
+                android:layout_width="200dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:text="List of Students"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+            <RelativeLayout
+                android:layout_weight="0.5"
+                android:id="@+id/addbtn"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp">
+
+                <ImageButton
+                    android:id="@+id/addBtn"
+                    android:layout_width="70dp"
+                    android:layout_height="62dp"
+                    android:backgroundTint="@color/purple_900"
+                    android:layout_centerInParent="true"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:padding="4dp"
+                    android:text="ADD"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/paidComp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/linear3"
+            tools:ignore="NestedScrolling">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recStudents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="10dp" />
+        </ScrollView>
+
+    </RelativeLayout>
+
+</ScrollView>

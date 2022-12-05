@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/crdCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="340dp"
+        android:layout_margin="20dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="14dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/student_Profile"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/stud_profile"/>
+                <TextView
+                    android:layout_weight="1.7"
+                    android:id="@+id/stud_Name"
+                    android:layout_width="143dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:text="Joe Root"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/company_Name"
+                android:layout_width="500dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/linear1"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Brampton Immigration Consultancy"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linear8"
+                android:layout_below="@id/company_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/locationButton"
+                    android:layout_width="0dp"
+                    android:layout_height="21dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/location"/>
+                <TextView
+                    android:id="@+id/company_Address"
+                    android:layout_width="227dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/companyName"
+                    android:layout_marginStart="20dp"
+                    android:text="Chandigarh, Chandigarh"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/stud_branch"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/linear8"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Computer and Science Engineering"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linear9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/stud_branch"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/job_Type"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:text="Part time"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/campus_Type"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Off Campus"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/file"
+                android:layout_marginTop="15dp"
+                android:layout_width="360dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:weightSum="2"
+                android:background="@drawable/edittext_code"
+                android:layout_below="@id/linear9">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/fileicon"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_file"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/resumefile"
+                        android:layout_width="143dp"
+                        android:layout_height="20dp"
+                        android:backgroundTint="@color/white"
+                        android:text="RESUME.PDF"
+                        android:textColor="@color/purple_900"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/resumefile"
+                        android:backgroundTint="@color/white"
+                        android:text="Uploaded more than a week ago"
+                        android:textColor="@color/purple_900"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
